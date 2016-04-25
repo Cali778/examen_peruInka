@@ -9,6 +9,21 @@ public class SucursalXD {
 	private String RUC;
 	private String Direccion;
 	private String Fono;
+	private String stado;
+	private Long id;
+	
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getStado() {
+		return stado;
+	}
+	public void setStado(String stado) {
+		this.stado = stado;
+	}
 	public String getRazonSoci() {
 		return RazonSoci;
 	}

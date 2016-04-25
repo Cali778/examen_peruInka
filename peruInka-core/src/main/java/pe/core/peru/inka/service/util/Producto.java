@@ -11,10 +11,15 @@ public class Producto {
 	private String Atributo;
 	private String status;
 	private String sucursal;
-	public String getNameProduc() {
+	private Long id;
+	
+	public void setId(Long id){
+		this.id = id;
+	}
+	public String getNameProduc(){
 		return NameProduc;
 	}
-	public void setNameProduc(String nameProduc) {
+	public void setNameProduc(String nameProduc){
 		NameProduc = nameProduc;
 	}
 	public double getPrecio() {
@@ -46,6 +51,10 @@ public class Producto {
 	}
 	public void setSucursal(String sucursal) {
 		this.sucursal = sucursal;
+	}
+	public Long getId() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 
